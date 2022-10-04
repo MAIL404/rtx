@@ -6,8 +6,8 @@
     let uptime = clockString(_uptime)
     let time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
     let ar = ['list', 'menu']
-    let title = `*© BOTCAHX*`
-    let tmb = `CLICK HERE ⎙`
+    let title = `*MENU BOT WA MAIL404*`
+    let tmb = `PENCET DISINIH ⎙`
     const sections = [ {
 	title: `Aktif Selama ${uptime} || Waktu ${time} WIB`,
 	rows: [
@@ -27,7 +27,7 @@
 const listMessage = {
   text: title,
   mentions: [m.sender],
-  footer: '📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner',
+  footer: 'MASIH DALAM PENGEMBANGAN',
   buttonText: tmb,
   sections
 }
@@ -41,7 +41,7 @@ const listMessage = {
 
 handler.help = ['Menu'].map((v) => v + ' <List>')
 handler.tags = ['main']
-handler.command = /^(menu|help|\?)$/i
+handler.command = /^(menu|help|.|\?)$/i
 handler.register = false
 
 module.exports = handler
