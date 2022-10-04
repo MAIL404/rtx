@@ -41,7 +41,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-  </>
+ 
 ╭─「 *${global.namebot}* 」  
 │ • Username : %name
 │ • Role : %role
@@ -185,7 +185,7 @@ const ftroli = {
                             itemCount : 9999999999999,
                             status: 1,
                             surface : 1,
-                            message: '© TioXd Official',
+                            message: '© MAIL404',
                             orderTitle: 'MENU',
                             thumbnail: await (await fetch('https://telegra.ph/file/3911d7aaaa8733314f70f.png')).buffer(),
                             sellerJid: '0@s.whatsapp.net'
@@ -193,16 +193,16 @@ const ftroli = {
                           }
                         }
                       }
-await conn.send3ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/328f69bd3fa43a1aecb20.jpg')).buffer(),  '*Here my Command List*', text, 'List Menu', '.menu', 'Information', '.info', 'Menu Pay', '.pay', m, {  
+await conn.send3ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/aa354740bbb6dbf87722f.jpg')).buffer(),  '*Here my Command List*', text, 'List Menu', '.menu', 'Information', '.info', 'Menu Pay', '.pay', m, {  
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
               title: 'Bot Wahatsapp Multi Auth',  
-              body: '© TioXd', 
-              description: 'Made With ❤️ TioXd', 
+              body: '© MAIL404', 
+              description: 'Made With ❤️ Ismail', 
               mediaType: 2,  
-            thumbnail: await (await fetch('https://telegra.ph/file/00faf159ce0349901eaf3.jpg')).buffer(), 
-           mediaUrl: `https://www.facebook.com/tio.permana.50999` 
+            thumbnail: await (await fetch('https://telegra.ph/file/aa354740bbb6dbf87722f.jpg')).buffer(), 
+           mediaUrl: `https://www.facebook.com/adminmotivator` 
           }  
        }  
       })
