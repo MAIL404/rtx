@@ -5,7 +5,7 @@ let handler = async (m, { conn, command, args }) => {
       reject
   }
   if (args[0] === 'xnxx.healt') {
-      conn.reply(m.chat, '*Tobat woy*', m)
+      conn.reply(m.chat, '*Tobatnya woy*', m)
       reject
   }
   let full = /f$/i.test(command)
